@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.help.Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/prosedur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prosedur" />
+
+        <LinearLayout
+            android:id="@+id/lytpros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/prosedur1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Temukan Kotak Sampah  berlogo Lobox." />
+
+            <TextView
+                android:id="@+id/prosedur2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Arahkan perangkat mu ke kotak sampah berlogo Lobox, tekan button bergambar kotak sampah." />
+
+            <ImageView
+                android:id="@+id/kotak"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:src="@drawable/empat" />
+
+            <TextView
+                android:id="@+id/prosedur3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kotak sampah akan terbuka, buanglah sampah mu, dan sampah akan terdeteksi sistem." />
+
+            <TextView
+                android:id="@+id/prosedur4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Kotak sampah akan tertutup automatis, coin akan bertmabah jika sistem berhasil terdeteksi." />
+
+            <TextView
+                android:id="@+id/prosedur5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Sistem akan mendeteksi sampah dari berat dan jenis sampah." />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/syarat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Syarat dan Ketentuan" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/syarat1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Anda akan mengikuti aturan yang telah di tetapkan" />
+
+            <TextView
+                android:id="@+id/syarat2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Coin adalah reward, 1 koin senilai 10 rupiah." />
+
+            <TextView
+                android:id="@+id/syarat3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Sampah yang di deteksi adalah sampah minimal berat 200gram, dan jenis sampah nya kering. " />
+
+            <TextView
+                android:id="@+id/syarat4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Lobox berhak untuk tidak memberi koin sesuai aturan." />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/lapor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laporkan Masalah" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/namapesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Nama" />
+
+            <EditText
+                android:id="@+id/judulpesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Judul" />
+
+            <EditText
+                android:id="@+id/pesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Pesan" />
+
+            <Button
+                android:id="@+id/submitpesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

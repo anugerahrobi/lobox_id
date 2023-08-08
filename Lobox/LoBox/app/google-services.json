@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "867687128557",
+    "firebase_url": "https://lobox-f704f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lobox-f704f",
+    "storage_bucket": "lobox-f704f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867687128557:android:d35c4446bf57eb6c865be4",
+        "android_client_info": {
+          "package_name": "com.lordania.lobox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867687128557-bc6dt2p2js80e7kvh8uphlhkvn3f42kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWfGPcJokWwtNnNRDohcbNo1NHPrGA5T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867687128557-bc6dt2p2js80e7kvh8uphlhkvn3f42kl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
